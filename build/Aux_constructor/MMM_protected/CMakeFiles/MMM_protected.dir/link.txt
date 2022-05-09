@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -shared -Wl,-soname,libMMM_protectedd.so -o libMMM_protectedd.so CMakeFiles/MMM_protected.dir/MMM_protected.cu.o CMakeFiles/MMM_protected.dir/cmake_device_link.o  -lcudadevrt -lcudart  -L"/usr/local/cuda-10.2/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda-10.2/targets/aarch64-linux/lib"
